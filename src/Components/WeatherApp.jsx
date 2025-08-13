@@ -5,6 +5,10 @@ import rainy from "../assets/images/rainy.png"
 import snowy from "../assets/images/snowy.png"
 
 const WeatherApp = () => {
+    const api_key = "c3181bfffa20b28892497ddb04f48729" ;
+    const search = () => {
+        const url = 'https://api.openweathermap.org/data/2.5/weather?q=London&appid=api_key' ;
+    } 
   return (
     <div className='container'>
         <div className="weather-app">
